@@ -1,0 +1,24 @@
+{
+  "name": "studentregistration",
+  "version": "1.0.0",
+  "description": "Used while connecting to database as real project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "JEAN DE LA PAIX",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "hbs": "^4.2.0",
+    "mysql2": "^3.16.1",
+    "open": "^11.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
